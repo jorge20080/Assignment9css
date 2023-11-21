@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="mb-5 pb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar-example2">
+            <div class="container-fluid">
+                <a class="navbar-brand text-info" href="#">J-Movies</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading1">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                              </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Sci-Fi</a>
+                                <a class="dropdown-item" href="#">Comedy</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <section class="container-fluid" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h2 class="text-danger" id="scrollspyHeading1">Jorge De Los Santos Reyes</h2>
+        <p>Welcome to J-Movies, your passport to an unrivaled world of entertainment. Immerse yourself in a boundless universe of movies, series, documentaries, and original content that transcends boundaries and sparks imagination. We're not just a streaming platform; we're a gateway to captivating narratives and gripping stories waiting to be discovered.</p>
+        <p>At J-Movies, we believe in the power of choice and cater to every cinematic taste. Whether you crave adrenaline-pumping action, heartwarming dramas, spine-tingling thrillers, or mind-bending sci-fi adventures, our diverse library has something for everyone. With seamless streaming, stunning visuals, and immersive sound, embark on a personalized viewing journey that adapts to your preferences. Join a community of fellow enthusiasts, explore curated playlists, and unlock a world of entertainment that's as limitless as your imagination.</p>
+    </section>
+    <section id="comedy" class="container-fluid">
+        <h2>Comedy</h2>
+        <ul class="row">
+            <li class="card col">
+                <img class="card-img-top" src="img/parasite.webp"  alt="parasite">
+                <div class="card-body">
+                    <h3 class="card-title">Parasite</h3>
+                    <p class="card-text">Parasite is a 2019 South Korean black comedy thriller film directed by Bong Joon-ho, who co-wrote the screenplay with Han Jin-won and co-produced.</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/deathatfuneral.jpeg" alt="death at a funeral">
+                <div class="card-body">
+                    <h3 class="card-title">Death at a funeral</h3>
+                    <p class="card-text">Death at a Funeral is a 2007 black comedy film directed by Frank Oz. It focuses on a family attempting to resolve a variety of problems, whilst they attend the funeral of the patriarch.</p>
+                </div> 
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/dontlookupp.jpg" alt="don't look up">
+                <div class="card-body">
+                    <h3 class="card-title">Don't look up</h3>
+                    <p class="card-text">Don't Look Up is a 2021 American apocalyptic political satire black comedy film written, co-produced, and directed by Adam McKay</p>
+                </div> 
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/shotgunwedding.jpg" alt="shotgun wedding">
+                <div class="card-body">
+                    <h3 class="card-title">Shotgun Wedding</h3>
+                    <p class="card-text">Shotgun Wedding is a 2022 American romantic action comedy film directed by Jason Moore and written by Mark Hammer.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="drama" class="container-fluid">
+        <h2>Drama</h2>
+        <ul class="row">
+            <li class="card col">
+                <img class="card-img-top" src="img/womentalking.jpg" alt="women talking">
+                <div class="card-body">
+                    <h3 class="card-title">Women Talking</h3>
+                    <p class="card-text">Women Talking is a 2022 drama film written and directed by Sarah Polley. Based on the Canadian 2018 novel of the same name by Miriam Toews.</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/alicedarling.jpeg" alt="Alice Darling">
+                <div class="card-body">
+                    <h3 class="card-title">Alice, Darling</h3>
+                    <p class="card-text">Alice, Darling is a 2022 psychological thriller film directed by Mary Nighy, in her directorial debut, from a screenplay by Alanna Francis.</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/sharper.jpg" alt="Sharper">
+                <div class="card-body">
+                    <h3 class="card-title">Sharper</h3>
+                    <p class="card-text">Sharper is a 2023 American crime thriller film directed by Benjamin Caron and written by Brian Gatewood and Alessandro Tanaka.</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/creed.jpg" alt="creed III">
+                <div class="card-body">
+                    <h3 class="card-title">Creed III</h3>
+                    <p class="card-text">Creed III is a 2023 American sports drama film co-produced, directed, and starring Michael B. Jordan. It is the sequel to Creed II (2018)</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="romantic" class="container-fluid">
+        <h2>Romantic</h2>
+        <ul class="row">
+            <li class="card col">
+                <img class="card-img-top" src="img/ypom.jpeg" alt="your place or mine">
+                <div class="card-body">
+                    <h3 class="card-title">Your Place or Mine</h3>
+                    <p class="card-text">Long-distance best friends Debby (Reese Witherspoon) and Peter (Ashton Kutcher) live on opposites coasts of the U.S.</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/promact.jpeg" alt="Prom Pact">
+                <div class="card-body">
+                    <h3 class="card-title">Prom Pact</h3>
+                    <p class="card-text">Prom season is in full swing, but Mandy (Peyton Elizabeth Lee) only cares about one thing: getting into Harvard.</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/ryelane.jpeg" alt="Rye Lane">
+                <div class="card-body">
+                    <h3 class="card-title">Rye Lane</h3>
+                    <p class="card-text">This British rom-com had its premiere at the 2023 Sundance Film Festival and follows two twenty-somethings</p>
+                </div>
+            </li>
+            <li class="card col">
+                <img class="card-img-top" src="img/ghosted.png" alt="Ghosted">
+                <div class="card-body">
+                    <h3 class="card-title">Ghosted</h3>
+                    <p class="card-text">After only one date, the duo quickly get caught up in an international escapade to save the world.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+</body>
+</html>
